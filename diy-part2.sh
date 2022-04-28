@@ -62,7 +62,8 @@ mv feeds/packages/lang/golang/ temp/
 git clone https://github.com/openwrt/packages.git temp/packages
 cd temp/packages/
 git reset --hard 9704e900
-cd $GITHUB_WORKSPACE/openwrt
+#cd $GITHUB_WORKSPACE/openwrt
+cd ../..
 cp -r temp/packages/lang/golang/ feeds/packages/lang/golang
 
 # passwall
